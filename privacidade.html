@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glicemia · Política de privacidade</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Glicemia · Política de privacidade</h1>
+<p class="muted">Última atualização: 21 de outubro de 2026</p>
+
+<p>O Glicemia é um aplicativo Android para anotar as medições de glicemia no diabetes gestacional (6 medições por
+dia), o que foi comido em cada refeição e gerar um relatório para levar ao médico. Esta política explica quais dados
+o app usa, onde eles ficam e como apagá-los.</p>
+
+<h2>Resumo</h2>
+<ul>
+  <li>Você entra com a sua conta Google. As medições ficam guardadas na sua conta, no Firebase (Google Cloud).</li>
+  <li>Só você e as pessoas que você autorizar no app conseguem ver os seus dados.</li>
+  <li>O desenvolvedor não vende, não compartilha e não usa os seus dados para publicidade.</li>
+  <li>O app não tem anúncios, analytics nem rastreamento.</li>
+  <li>Você pode excluir a conta e todos os dados a qualquer momento, no próprio app.</li>
+</ul>
+
+<h2>Dados que o app usa</h2>
+<ul>
+  <li><strong>Conta Google</strong>: nome, e-mail e um identificador da conta, usados pelo Firebase Authentication para
+    você entrar e para saber quais dados são seus.</li>
+  <li><strong>Dados de saúde</strong>: os valores de glicemia (mg/dL), o período e a hora de cada medição, as
+    anotações do que foi comido nas refeições e as metas de glicemia.</li>
+  <li><strong>Nome da paciente</strong>: o nome que você digitar, mostrado na saudação e no relatório.</li>
+  <li><strong>Pessoas autorizadas</strong>: os e-mails das pessoas que você autorizou a ver e registrar as suas
+    medições (por exemplo, o parceiro ou a parceira).</li>
+  <li><strong>Tokens de API</strong> (opcional): se você criar um token em Ajustes → Acesso por API, o app guarda só
+    um resumo criptográfico (hash) do token, o nome que você deu e quando ele foi usado.</li>
+</ul>
+
+<h2>Onde os dados ficam</h2>
+<p>No Cloud Firestore e no Firebase Authentication, serviços do Google (Firebase), na conta do projeto do app. O
+Google trata esses dados como operador, conforme os
+<a href="https://firebase.google.com/support/privacy">termos de privacidade do Firebase</a>. A comunicação entre o
+celular e o Firebase é criptografada (HTTPS). Uma cópia fica no celular para o app funcionar sem internet.</p>
+
+<h2>Com quem os dados são compartilhados</h2>
+<ul>
+  <li><strong>Pessoas que você autorizar</strong> em Ajustes → Compartilhar: elas veem e registram medições no seu
+    perfil. Você pode retirar o acesso a qualquer momento.</li>
+  <li><strong>Relatório em PDF e backup</strong>: o app gera os arquivos no celular. Eles só saem do aparelho quando
+    você mesma os envia (por exemplo, pelo WhatsApp ou e-mail ao médico).</li>
+  <li><strong>Alexa e outros sistemas</strong> (opcional): se você ativar a skill "Diário da Glicemia" ou criar um
+    token de API, esses serviços podem registrar medições na sua conta. A skill tem
+    <a href="https://glicemia-gestacional-553d8.web.app/privacidade.html">política própria</a>.</li>
+</ul>
+<p>Os dados não são vendidos nem cedidos a terceiros.</p>
+
+<h2>Permissões do Android</h2>
+<ul>
+  <li><strong>Notificações</strong>: para lembrar de medir 1 hora após a refeição.</li>
+  <li><strong>Alarmes exatos</strong> (opcional): para o lembrete tocar na hora certa, se você permitir em Ajustes.</li>
+</ul>
+
+<h2>Por quanto tempo os dados ficam guardados</h2>
+<p>Enquanto a sua conta existir. Medições e anotações apagadas no app são removidas na hora.</p>
+
+<h2>Excluir a conta e os dados</h2>
+<p>No app: <strong>Ajustes → Excluir conta</strong>. Isso apaga para sempre as medições, as anotações das
+refeições, as metas, o nome da paciente, as autorizações dadas, os tokens de API e a sua conta no Firebase. Antes, se
+quiser guardar uma cópia, use Ajustes → Fazer backup. Se não tiver mais o app, veja
+<a href="excluir-conta.html">como pedir a exclusão</a>.</p>
+<p>Medições que você registrou no perfil de outra pessoa (que te autorizou) pertencem ao perfil dela e continuam lá.</p>
+
+<h2>Aviso de saúde</h2>
+<p>O Glicemia é um diário. Não é um dispositivo médico, não faz diagnóstico e não indica tratamento. As metas e
+qualquer decisão sobre o tratamento devem ser combinadas com o seu médico.</p>
+
+<h2>Crianças</h2>
+<p>O app é destinado a maiores de 18 anos.</p>
+
+<h2>Contato</h2>
+<p>Dúvidas sobre esta política ou sobre os seus dados: <a href="mailto:jeferson.urbieta@gmail.com">jeferson.urbieta@gmail.com</a>.</p>
+</main>
+</body>
+</html>
